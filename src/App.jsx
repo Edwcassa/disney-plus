@@ -1,11 +1,10 @@
 import './App.css'
+import AppRouter from './routers/AppRouter'
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <h1>mm</h1>
-      </header>
+      <AppRouter />
     </div>
   )
 }

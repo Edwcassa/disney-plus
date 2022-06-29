@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "react-router-dom": "6.3.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
@@ -22,7 +23,10 @@
     "extends": "./node_modules/standard/eslintrc.json",
     "rules": {
       "no-var": 0,
-      "space-before-function-paren": ["error", "never"]
+      "space-before-function-paren": [
+        "error",
+        "never"
+      ]
     }
   }
 }
