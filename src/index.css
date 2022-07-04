@@ -52,7 +52,7 @@ code {
   .brand {
     /* @apply  flex justify-center items-center w-2/12 h-2/6 border-[3px] border-[#f9f9f9] border-opacity-10 rounded-lg cursor-pointer shadow-xl overflow-hidden  hover:border-opacity-80 hover:shadow-2xl transform hover:scale-105 transition duration-300; */
     /* @apply flex justify-center items-center w-48 h-28 border-[3px] border-[#f9f9f9] border-opacity-10 rounded-lg cursor-pointer shadow-xl overflow-hidden  hover:border-opacity-80 hover:shadow-2xl transform hover:scale-105 transition duration-300; */
-    @apply  border-[3px] border-[#f9f9f9] border-opacity-10 rounded-lg cursor-pointer shadow-xl shadow-zinc-900 overflow-hidden  hover:border-opacity-80 hover:shadow-2xl transform hover:scale-105 transition duration-300;
+    @apply  border-[3px] border-[#f9f9f9] border-opacity-10 rounded-lg cursor-pointer overflow-hidden  hover:border-opacity-80  transform hover:scale-105 transition duration-300;
   
   }
   .brandMovie {
