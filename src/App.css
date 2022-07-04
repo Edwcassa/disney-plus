@@ -2,6 +2,7 @@
 
 .App {
   color: #f9f9f9;
+  overflow: hidden;
   background-color: rgb(26, 29, 41);
   font-family: "Montserrat", sans-serif;
   min-height: 100vh;
