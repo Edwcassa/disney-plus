@@ -18,3 +18,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@layer components {
+  .bordeA {
+    @apply border-solid border-2 border-green-500;
+  }
+  .bordeB {
+    @apply border-solid border-2 border-orange-500;
+  }
+  .bordeC {
+    @apply border-solid border-2 border-pink-500;
+  }
+
+  .message_Success {
+    @apply text-xl text-green-500 font-bold p-1 m-5 bg-slate-800 text-center rounded-md
+  }
+  .message_Error {
+    @apply text-xl text-red-400 font-bold p-1 m-5 bg-slate-800 text-center rounded-md
+  }
+
+  .header-link {
+    @apply flex items-center space-x-2 cursor-pointer;
+  }
+
+  .span {
+    @apply relative  text-lg font-medium before:bg-[#f9f9f9] before:rounded-bl before:-bottom-1.5 before:h-0.5 before:inset-x-0 before:absolute before:transform before:origin-left before:scale-x-0 before:transition-all before:duration-200 group-hover:before:scale-x-100;
+  }
+  
+  .icon-h {
+    @apply mr-0 sm:mr-5 md:mr-0.5 lg:mr-0
+  }
+
+  .brand {
+    /* @apply  flex justify-center items-center w-2/12 h-2/6 border-[3px] border-[#f9f9f9] border-opacity-10 rounded-lg cursor-pointer shadow-xl overflow-hidden  hover:border-opacity-80 hover:shadow-2xl transform hover:scale-105 transition duration-300; */
+    /* @apply flex justify-center items-center w-48 h-28 border-[3px] border-[#f9f9f9] border-opacity-10 rounded-lg cursor-pointer shadow-xl overflow-hidden  hover:border-opacity-80 hover:shadow-2xl transform hover:scale-105 transition duration-300; */
+    @apply  border-[3px] border-[#f9f9f9] border-opacity-10 rounded-lg cursor-pointer shadow-xl shadow-zinc-900 overflow-hidden  hover:border-opacity-80 hover:shadow-2xl transform hover:scale-105 transition duration-300;
+  
+  }
+  .brandMovie {
+    /* @apply  flex justify-center items-center w-2/12 h-2/6 border-[3px] border-[#f9f9f9] border-opacity-10 rounded-lg cursor-pointer shadow-xl overflow-hidden  hover:border-opacity-80 hover:shadow-2xl transform hover:scale-105 transition duration-300; */
+    /* @apply flex justify-center items-center w-48 h-28 border-[3px] border-[#f9f9f9] border-opacity-10 rounded-lg cursor-pointer shadow-xl overflow-hidden  hover:border-opacity-80 hover:shadow-2xl transform hover:scale-105 transition duration-300; */
+    @apply  border-[3px] border-[#f9f9f9] border-opacity-0 rounded-lg cursor-pointer shadow-xl overflow-hidden  hover:border-opacity-80 hover:shadow-2xl hover:shadow-black transform hover:scale-105 transition duration-300;
+  }
+}
