@@ -1,0 +1,40 @@
+.slick-list {
+  overflow: initial;
+  border: 2px solud blue;
+}
+.mmb .slick-prev {
+  left: -6%;
+  z-index: 99;
+}
+.mmb .slick-next {
+  right: -6%;
+  z-index: 99;
+}
+
+.mmb .slick-slider>button {
+  background-color: rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  height: 100%;
+  width: 5vw;
+  z-index: 99;
+}
+
+.mmb .slick-slider>button:hover {
+  opacity: 1;
+  transition: opacity 0.2s ease 0s;
+}
+
+/* .slick-dots {
+  bottom: 20px;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  right: 25px;
+  text-align: right;
+  pointer-events: none;
+  width: 100%;
+}
+.slick-dots li {
+  margin: 0;
+} */
