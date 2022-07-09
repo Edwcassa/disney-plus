@@ -22,6 +22,10 @@ export default function Header() {
     console.log('go')
     navigate('/login', { replace: true })
   }
+  const goHome = () => {
+    console.log('go')
+    navigate('/', { replace: true })
+  }
 
   const cla = `fixed top-0 left-0 ${navbar} z-50 transition duration-300 w-[100%]`
   /* <h1 className='pl-8 py-4 text-xl font-bold'>midudev</h1> */
@@ -33,8 +37,8 @@ export default function Header() {
     <nav className={cla}>
       <div className=' mx-1 flex justify-between items-center text-white my-2 sm:my-2 sm:mx-5 md:my-4 md:mx-5 lg:my-3 lg:mx-10 '>
         <div className=' flex items-center'>
-          <img src='/favicon.ico' alt='' className=' block sm:hidden md:hidden lg:hidden' />
-          <img src='/logo.svg' alt='' className='w-3/12 hidden sm:w-[15%] sm:block md:w-[12%] md:block lg:w-[12%] lg:block' />
+          <img onClick={() => goHome()} src='/favicon.ico' alt='' className=' block sm:hidden md:hidden lg:hidden' />
+          <img onClick={() => goHome()} src='/logo.svg' alt='' className='w-3/12 hidden sm:w-[15%] sm:block md:w-[12%] md:block lg:w-[12%] lg:block cursor-pointer' />
           <ul className=' ml-4 flex items-center text-base font-semibold cursor-pointer sm:ml-20 md:ml-6 lg:ml-16'>
             <Link to='/' className='header-link group mr-8'><i className='icon-h fa-solid fa-house ' /><span className='span hidden sm:hidden md:block lg:block '>Home</span></Link>
             <a className='header-link group mr-8'><i className='icon-h fa-solid fa-magnifying-glass ' /><span className='span hidden sm:hidden md:block lg:block'>Search</span></a>
