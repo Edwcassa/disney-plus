@@ -1,0 +1,52 @@
+.mma .slick-list {
+  overflow: initial;
+  margin: 0;
+}
+
+.mma .slick-prev {
+  /* border: 2px solid blue; */
+  margin-top: 45px;
+  max-height: 300px;
+  left: -1%;
+  z-index: 99;
+}
+
+.mma .slick-next {
+  /* border: 2px solid blue; */
+  margin-top: 45px;
+  max-height: 300px;
+  right: -1%;
+  z-index: 99;
+}
+
+/* button prev next animation */
+.mma .slick-slider>button {
+  opacity: 0;
+  height: 100%;
+  width: 8vw;
+  z-index: 99;
+}
+
+.mma .slick-slider>button:hover {
+  opacity: 1;
+  transition: opacity 0.2s ease 0s;
+}
+
+/*  points carrusel guia */
+.mma ul li button::before {
+  font-size: 12px;
+  opacity: 1;
+  color: rgb(150, 158, 171);
+}
+
+.mma li.slick-active button:before {
+  color: white;
+}
+
+.mma .slick-dots {
+  bottom: 20px;
+  text-align: right;
+  padding-right: 85px;
+  right: 25px;
+  z-index: 99;
+}
