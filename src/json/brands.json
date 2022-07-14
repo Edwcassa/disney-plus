@@ -21,8 +21,8 @@
     "link": "/marvel",
     "image": "/images/marvel.png",
     "video": "/videos/marvel.mp4",
-    "bg_image": "/images/marvel-page.jfif",
-    "bg_video": "/videos/marvel-page2.mp4",
+    "bg_image": "/images/bg-marvel.jfif",
+    "bg_video": "/videos/bg-marvel.mp4",
     "bg_image_url": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DA2E198288BFCA56AB53340211B38DE7134E40E4521EDCAFE6FFB8CD69250DE9/scale?width=1440&aspectRatio=1.78&format=jpeg",
     "bg_video_url": "https://vod-bgc-sa-east-1.media.dssott.com/bgui/ps01/disney/bgui/2021/11/04/1636056889-marvel.mp4"
   },
