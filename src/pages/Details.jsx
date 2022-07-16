@@ -18,7 +18,6 @@ export default function Details() {
   const { id } = useParams()
 
   const movie = getById(json, id)
-  console.log(movie)
 
   const checkpoint = 300
   var opacity = 0
@@ -43,8 +42,8 @@ export default function Details() {
   // const cla = `opacity-${opacity}`
   return (
     <>
-      <div className='fixed z-0'>
-        <img src={imagePath} alt='' className='front' />
+      <div className='fixed z-0 w-full'>
+        <img src={imagePath} alt='' className='front' width='100%' />
       </div>
       <div className='fixed'>
         <div className='fixed inset-0 bg-gradient-to-r from-[#1a1d29] via-transparent to-transparent -z-10' />
