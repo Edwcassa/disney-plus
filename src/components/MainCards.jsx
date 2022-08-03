@@ -70,7 +70,7 @@ export default function MainCards({ data }) {
     return (
       <div key={i} className='mmb'>
         <div className='flex mt-8 mb-2'>
-          <button className=' bg-transparent hover:bg-gray-900 text-white font-semibold py-2 px-4 rounded shadow cursor-auto'>{type}</button>
+          <button className=' bg-transparent hover:bg-gray-900 text-white font-semibold py-2 px-4 rounded shadow cursor-auto z-10'>{type}</button>
         </div>
         <Slider {...settings} className='cursor-grab'>
           {

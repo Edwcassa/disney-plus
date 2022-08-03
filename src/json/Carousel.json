@@ -1,44 +1,44 @@
 [
   {
-    "id": 14,
-    "title": "Doctor Strange en el Multiverso de la Locura",
+    "id": 34,
+    "title": "Avatar El sentido del agua",
     "category": "movie",
-    "path_image": "/images/slider (1).png"
+    "path_image": "/images/slider (6).jpg"
   },
   {
-    "id": 8,
-    "title": "Ms. Marvel",
-    "category": "serie",
-    "path_image": "/images/slider (2).png"
+    "id": 14,
+    "title": "Doctor Strange en el Multiverso de la Locura",
+    "category": "Movie",
+    "path_image": "/images/slider (1).jpg"
   },
   {
     "id": 32,
     "title": "Cars 3",
     "category": "movie",
-    "path_image": "/images/slider (3).png"
+    "path_image": "/images/slider (3).jpg"
   },
   {
     "id": 11,
     "title": "Siempre fui yo",
     "category": "serie",
-    "path_image": "/images/slider (4).png"
+    "path_image": "/images/slider (4).jpg"
   },
   {
     "id": 7,
     "title": "Nate, mejor tarde que nunca",
     "category": "movie",
-    "path_image": "/images/slider (5).png"
+    "path_image": "/images/slider (5).jpg"
   },
   {
     "id": 3,
     "title": "Más allá del infinito: el viaje de Buzz a Lightyear",
     "category": "serie",
-    "path_image": "/images/slider (7).png"
+    "path_image": "/images/slider (7).jpg"
   },
   {
     "id": 4,
     "title": "Chip y Chop: Los Guardianes Rescatadores",
     "category": "movie-serie",
-    "path_image": "/images/slider (8).png"
+    "path_image": "/images/slider (8).jpg"
   }
 ]
